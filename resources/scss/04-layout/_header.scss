@@ -10,13 +10,17 @@
     &:hover {
         @include apply-utility('color', 'secondary');
     }
+
+    & img {
+        max-width: 120px;
+    }
 }
 
 @include media-query('mobileXL') {
 
     .logo {
         --logo-size: #{get-size('600')};
-        margin: 0 auto 0 0;
+        margin: 0 auto;
     }
 }
 

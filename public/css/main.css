@@ -989,11 +989,14 @@ a:not([class]):hover {
 .logo:hover {
   color: #24e0d0;
 }
+.logo img {
+  max-width: 120px;
+}
 
 @media (min-width : 40em) {
   .logo {
     --logo-size: 1.56rem;
-    margin: 0 auto 0 0;
+    margin: 0 auto;
   }
 }
 @media (min-width : 40em) {
