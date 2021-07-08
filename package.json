@@ -3,6 +3,7 @@
   "version": "3.0.0",
   "description": "Skeleventy gives you a rock solid foundation to build fast and accessible static websites",
   "scripts": {
+    "build-css": "tailwindcss build site/tailwindsrc/styles.css -o  public/tailwindpublic/styles.css",
     "dev": "ELEVENTY_ENV=development npx @11ty/eleventy --config=eleventy.config.js --serve --quiet & mix watch",
     "production": "mix --production & npx @11ty/eleventy --config=eleventy.config.js"
   },
@@ -22,5 +23,8 @@
     "postcss": "^8.2.6",
     "resolve-url-loader": "^3.1.2",
     "sass-loader": "^11.0.1"
+  },
+  "dependencies": {
+    "tailwindcss": "^2.2.4"
   }
 }

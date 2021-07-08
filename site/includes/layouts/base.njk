@@ -12,6 +12,8 @@
         <link rel="stylesheet" href="/css/main.min.css">
     {% endif %}
 
+    <link rel="stylesheet" href="/tailwindpublic/styles.css">
+
     {# include javascript #}
     <script src="/js/{{ 'main.js' if helpers.environment === 'development' else 'main.min.js' }}" defer></script>
 
@@ -38,7 +40,7 @@
     <div id="wrapper" class="wrapper box-flex pb-900">
 
         {# include header #}
-        {% include "components/header.njk" %}
+        {# {% include "components/header.njk" %} #}
 
         {# include content #}
         {{ content | safe }}
@@ -49,7 +51,7 @@
     </div>
 
     {# include mobile nav #}
-    {% include "components/mobile-nav.njk" %}
+    {# {% include "components/mobile-nav.njk" %} #}
 
 </body>
 </html>
