@@ -7,6 +7,7 @@ Skeleventy gives you a rock solid foundation to build fast and accessible static
 ## Features
 
 - A clean, minimal build pipeline with SCSS and [Laravel Mix](https://laravel-mix.com/docs/5.0/basic-example) for compiling assets
+- Tailwind added back in for this project
 - [Gorko](https://github.com/hankchizljaw/gorko), a smart little Sass-powered utility class generator
 - [Purgecss](https://purgecss.com/) to remove unused CSS
 - HTML minifier
