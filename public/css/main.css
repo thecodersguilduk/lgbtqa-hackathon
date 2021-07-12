@@ -56,7 +56,7 @@
 }
 
 .font-base {
-  font-family: 'Roboto Slab', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .font-heading {
