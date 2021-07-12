@@ -23,11 +23,11 @@
  * to enabling/disabling pre-built components/utilities.
  */
 .bg-primary {
-  background: #01093c;
+  background: #2574a9;
 }
 
 .bg-secondary {
-  background: #24e0d0;
+  background: #c94b62;
 }
 
 .bg-grey {
@@ -39,11 +39,11 @@
 }
 
 .color-primary {
-  color: #01093c;
+  color: #2574a9;
 }
 
 .color-secondary {
-  color: #24e0d0;
+  color: #c94b62;
 }
 
 .color-grey {
@@ -955,17 +955,17 @@ a {
 }
 a:not([class]) {
   color: currentColor;
-  border-bottom: var(--border-size) solid #24e0d0;
+  border-bottom: var(--border-size) solid #c94b62;
   padding-bottom: 0.1rem;
   -webkit-text-decoration-skip: ink;
           text-decoration-skip-ink: auto;
 }
 a:not([class]):hover {
-  color: #24e0d0;
+  color: #c94b62;
 }
 
 :focus {
-  outline: 1px solid #24e0d0;
+  outline: 1px solid #c94b62;
   outline-offset: 0.25rem;
 }
 
@@ -987,10 +987,12 @@ a:not([class]):hover {
   margin: 0 auto;
 }
 .logo:hover {
-  color: #24e0d0;
+  color: #c94b62;
 }
 .logo img {
-  max-width: 120px;
+  width: 80px;
+  max-height: 80px;
+  min-height: 80px;
 }
 
 @media (min-width : 40em) {
@@ -1010,7 +1012,7 @@ a:not([class]):hover {
   line-height: 3.05rem;
 }
 .nav .link.active, .nav .link:hover {
-  color: #24e0d0;
+  color: #c94b62;
 }
 .nav .link-get-started {
   border-radius: var(--border-radius);
@@ -1018,7 +1020,7 @@ a:not([class]):hover {
 }
 .nav .link-get-started:hover {
   background: #fff;
-  color: #01093c;
+  color: #2574a9;
 }
 
 .mobile-nav {
@@ -1040,7 +1042,7 @@ a:not([class]):hover {
   padding: var(--gap) 0;
 }
 .mobile-nav .link.active, .mobile-nav .link:hover {
-  color: #24e0d0;
+  color: #c94b62;
 }
 
 .mobile-nav-toggle {
@@ -1104,10 +1106,10 @@ a:not([class]):hover {
 
 .button {
   display: inline-block;
-  background-color: #24e0d0;
+  background-color: #c94b62;
   border: 0;
   border-radius: var(--border-radius);
-  color: #01093c;
+  color: #2574a9;
   padding: 0.8rem 1.25rem;
   transition: background-color var(--transition-duration) var(--transition-timing);
   font-weight: 700;
@@ -1140,7 +1142,7 @@ a:not([class]):hover {
 }
 
 .social-icons .icon-link:hover {
-  color: #24e0d0;
+  color: #c94b62;
 }
 .social-icons .icon {
   --social-icon-size: 1.25rem;
@@ -1197,11 +1199,11 @@ a:not([class]):hover {
   padding: 0.25rem 0.5rem;
 }
 .card-title-link {
-  border-bottom: var(--border-size) solid #24e0d0;
+  border-bottom: var(--border-size) solid #c94b62;
   transition: border-color var(--transition-duration) var(--transition-timing);
 }
 .card-title-link:hover {
-  border-bottom-color: #01093c;
+  border-bottom-color: #2574a9;
 }
 .card .datetime {
   position: absolute;

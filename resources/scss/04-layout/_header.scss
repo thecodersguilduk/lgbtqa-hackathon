@@ -12,7 +12,9 @@
     }
 
     & img {
-        max-width: 120px;
+        width: 80px;
+        max-height: 80px;
+        min-height: 80px;
     }
 }
 
