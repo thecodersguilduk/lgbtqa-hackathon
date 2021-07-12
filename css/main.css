@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap);
 @charset "UTF-8";
 /**
  * BASE SIZE
@@ -55,7 +56,7 @@
 }
 
 .font-base {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Roboto Slab', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .font-heading {
@@ -912,6 +913,7 @@ ol[class] {
 
 body {
   font-size: var(--text-500);
+  font-family: "Roboto Slab", Serif;
 }
 
 h1,

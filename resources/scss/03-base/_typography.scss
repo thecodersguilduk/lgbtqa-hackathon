@@ -1,9 +1,11 @@
 
 //========== Typography ==========//
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 // set base font size
 body {
     font-size: v(text-500);
+    font-family: 'Roboto Slab', Serif;
 }
 
 // headings
