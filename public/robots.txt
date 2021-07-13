@@ -2,4 +2,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://skeleventy.netlify.app/sitemap.xml
+Sitemap: https://www.lgbtqhack.com//sitemap.xml
