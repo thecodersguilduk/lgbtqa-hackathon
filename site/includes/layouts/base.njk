@@ -17,6 +17,8 @@
     {# include javascript #}
     <script src="/js/{{ 'main.js' if helpers.environment === 'development' else 'main.min.js' }}" defer></script>
 
+    
+
     {# page meta #}
     <meta name="description" content="{{ meta_description | truncate(140) if meta_description else content | striptags | truncate(140) }}">
     <meta name="format-detection" content="telephone=no">
