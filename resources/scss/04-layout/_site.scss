@@ -4,7 +4,6 @@
 .wrapper {
   min-height: 100vh;
   flex-direction: column;
-  background-attachment: fixed;
 }
 
 @include media-query("mobileXL") {
