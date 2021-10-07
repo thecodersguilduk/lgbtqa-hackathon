@@ -974,7 +974,6 @@ a:not([class]):hover {
 .wrapper {
   min-height: 100vh;
   flex-direction: column;
-  background-attachment: fixed;
 }
 
 @media (min-width : 40em) {
